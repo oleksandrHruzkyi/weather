@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/weather/static/css/main.ea178d62.css",
+    "main.js": "/weather/static/js/main.96bdcd48.js",
+    "static/js/787.963412cf.chunk.js": "/weather/static/js/787.963412cf.chunk.js",
+    "static/media/bg_pogoda.jpg": "/weather/static/media/bg_pogoda.cd0c7f445030e5d167ad.jpg",
+    "index.html": "/weather/index.html",
+    "main.ea178d62.css.map": "/weather/static/css/main.ea178d62.css.map",
+    "main.96bdcd48.js.map": "/weather/static/js/main.96bdcd48.js.map",
+    "787.963412cf.chunk.js.map": "/weather/static/js/787.963412cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea178d62.css",
+    "static/js/main.96bdcd48.js"
+  ]
+}
