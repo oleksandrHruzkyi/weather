@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app::before{
+  content: '';
+  background: url('./images/bg_pogoda.jpg') no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.inp-field{
+  text-align: center;
+  padding: 1rem;
+}
+.inp-field input{
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  border: 1px solid gray;
+  background: rgba(255, 255, 255, 0.5);
+  color: #8f8f8f;
+}
+
+.container{
+  margin-top: 10vh;
+}
+.city p{
+  text-align: center;
+  font-size: 3rem;
+  font-style: oblique;
+  color: #ffff;
+}
+
+.temp h1{
+  text-align: center;
+  color: #ffff;
+  font-size: 7rem;
+}
+.desc p{
+  color: #ffff;
+  font-size: 2rem;
+  text-align: center;
+}
+.bold{
+  font-weight: 700;
+}
+.footer{
+  margin: 10vh auto;
+  color: #ffff;
+  background:rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.feels, .humidity, .wind, .rainfall{
+  border-radius: 20px;
+  border: 1px solid rgba(150, 31, 31, 0.5);
+  flex-grow: 1;
+}
+
+.feels p, .humidity p, .wind p, .rainfall p{
+
+  text-align: center;
+  font-size: 1.35rem;
+}
